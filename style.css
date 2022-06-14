@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-wp {
+  width: 80%;
+  height: 80%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.link-wp {
+  letter-spacing: 2px;
+  background-color: #3d3d3d;
+  padding: 10px 50px;
+  margin: 0 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  list-style: none;
+  border: none;
+  color: white;
+}
+
+.tab-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+  background-color: red;
+}
+
+.content-div {
+  flex: 10;
+  background-color: rgb(8, 171, 41);
+  width: 100%;
+  overflow: auto;
+}
+
+.active-wp {
+  background-color: #ffe66c !important;
+  color: #3821c7 !important;
+  font-weight: bold !important;
+}
+
+.card_div {
+  display: flex;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
