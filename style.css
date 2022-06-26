@@ -38,28 +38,39 @@ body {
   align-items: center;
   flex: 1;
   width: 100%;
-  background-color: red;
+  background-color: transparent;
 }
 
 .content-div {
   flex: 10;
-  background-color: rgb(8, 171, 41);
+  background-color: #313131;
   width: 100%;
   overflow: auto;
 }
 
 .active-wp {
-  background-color: #ffe66c !important;
+  background-color: #5065b2 !important;
   color: #3821c7 !important;
   font-weight: bold !important;
 }
 
-.card_div {
+.posts {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 20px;
+}
+
+.card_div {
+  height: 80px;
+  display: flex;
+  width: 45%;
   margin: 10px;
   border-radius: 10px;
-  border: 1px solid;
+  border: 1px solid red;
   padding: 10px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  color: #fff;
 }

@@ -12,8 +12,9 @@ btns.map((item, index, btns) => {
   item.addEventListener("click", (e) => {
     btns.map((item, index1) => {
       if (index === index1) {
-        item.style.backgroundColor = "#ffe66c";
-        item.style.color = "black";
+        item.style.backgroundColor = "#5065B2";
+        item.style.color = "#FFF2B0";
+        item.style.font="bold";
       } else {
         item.style.backgroundColor = "#3d3d3d";
         item.style.color = "white";
@@ -42,14 +43,13 @@ btns.map((item, index, btns) => {
         // append childs
         div_card.appendChild(div_img)
         div_card.appendChild(div_text);
-        div_img.appendChild(img)
-        div_text.appendChild(title)
+        div_img.appendChild(img);
+        div_text.appendChild(title);
         div_text.appendChild(date)
 
         img.alt = item.username;
         title.textContent = item.name;
         date.textContent = item.phone;
-
         post.appendChild(div_card);
 
         console.log(div_card)
