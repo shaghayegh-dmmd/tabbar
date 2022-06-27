@@ -74,3 +74,13 @@ body {
   justify-content: space-between;
   color: #fff;
 }
+
+.card_div:nth-child(1){
+  background:red;
+}
+.card_div:nth-child(4){
+  background:red;
+}
+.card_div:nth-child(5){
+  background:red;
+}
